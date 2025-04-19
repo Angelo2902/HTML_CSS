@@ -1,2 +1,2 @@
 # HTML_CSS
- curso de html
+Aprendendo a gerenciar no github
