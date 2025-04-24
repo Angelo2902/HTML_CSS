@@ -8,51 +8,91 @@
         body {
             background-color: lightgray;
         }
-        #container {
-            position: relative;
-            background-color: purple;
-            height: 100vh;
-            padding: 10px;
-            background-image: url(imagens/target001.png);
-            background-size: 100% 100%;
-        }
-        #conteudo {
-            
-            background-image: url(imagens/target001.png);
-            background-size: 100% 100%;
-            
-            background-color: yellow;
-            height: 200px;
-            width: 400px;
 
+        *{
+            padding: 0px;
+            margin: 0px;
+            text-align: center;
+        }
+        header {
+            width: 100%;
+            height: 200px;
+            background-color: black;
+            color: white;
+        }
+        section {
+            width: 100%;
+            height: 50vh;
+            position: relative;
+        }
+        section > p {
             position: absolute;
+            height: 5vh;
+
+        }
+        .fundo > p {
+            background-position: center center;
             left: 50%;
             top: 50%;
-            transform: translate(-50% ,110%);
+            
+        }
+        .normal{
+            width: 500px;
+            
+        }
+
+        .fundo {
+            width:100%;
+            
+            background-image: url(imagens/target001.png);
+            background-size: auto;
+            background-position: center center;
 
             
         }
-        #esquerda {
-            position: absolute;
-            width: 100px;
-            height: 200px;
-            background-color: cyan;
-            transform: translate3d(100px);
-        }
-        
     </style>
 </head>
 <body>
-    <section id="container">
-        <article id="conteudo">
-
-        </article>
-        <article id="esquerda">
-
-        </article>
-        <article id="direito">
-
-        </article>
+    <header>
+        <p>olá mundo</p>
+    </header>
+    <section class="normal">
+        <p>  
+            rem ipsum dolor sit amet <br>
+             consectetur adipisicing  <br>
+             elit. Adipisci quis, sim <br>
+             ilique dolor aut error v <br>
+             itae recusandae sit! Cons <br>
+             ectetur magnam repellend <br>
+             us maxime, at vitae eos  <br>
+             quisquam provident place <br>
+             at optio amet beatae. <br>
+        </p>
+    </section>
+    <section class="fundo">
+        <p>  rem ipsum dolor sit ame <br>
+            t, consectetur adipisici <br>
+            ng elit. Iusto quos  <br>
+             at nulla suscipit place <br>
+             at facere, doloremque a <br>
+             b magni a, ipsam adipisc <br>
+             i nobis sint. Pariatur r <br>
+             epellendus nesciunt disti <br>
+             nctiolaudantium perspicia. <br>
+        </p>
+    </section>
+    <section class="normal">
+        <p>
+            Lorem ipsum dolor sit amet <br>
+             consectetur adipisicing e <br>
+             lit. Et delectus corporis <br>
+            perferendis deserunt esse <br>
+            cumque rem molestiae, od <br>
+            it possimus impedit con <br>
+            sequuntur deleniti volup <br>
+            tates! Tempora dolore ali <br>
+            quam sunt delectus quo nemo? <br>
+        </p>
     </section>
 </body>
 </html>
