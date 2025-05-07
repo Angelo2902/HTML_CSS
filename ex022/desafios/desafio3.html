@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>desafio3</title>
+</head>
+<style>
+    table {
+        font-family: Arial, Helvetica, sans-serif;
+        width: 500px;
+        border: 1px solid black;
+
+    }
+    tr, td {
+        border: 1px solid black;
+    }
+    thead {
+        text-align: center;
+    }
+    tbody > tr:nth-child(odd) {
+        background-color: lightgrey;
+    }
+</style>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <td>Grupo</td>
+                <td>Nomes</td>
+                <td colspan="3">Filmes</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3">Mulheres</th>
+                <td>ana beatriz</td>
+                <td>Alien</td>
+                <td>Rambo</td>
+                <td>Vingadores</td>   
+            </tr>
+            <tr>
+               <td>beatriz souza</td> 
+               <td>Hulk</td>               
+               <td>Inception</td>
+               <td>Batman</td>
+            </tr>
+            <tr>
+                <td>Claúdia mota</td>
+                <td>Oblivion</td>
+                <td>Matrix</td>
+                <td>Big Hero</td>
+            </tr>
+
+            <tr>
+                <td rowspan="3">Homens</td>
+                <td>Bruno mendonça</td>
+                <td>intocaveis</td>
+                <td>amnésia</td>
+                <td>gladiador</td>
+            </tr>
+            <tr>
+                <td>daniel lourenço</td>
+                <td>Wall-E</td>
+                <td>oldboy</td>
+                <td>dangal</td>
+            </tr>
+            <tr>
+                <td>Fabiano mota</td>
+                <td>Star wars 5</td>
+                <td>taxi driver</td>
+                <td>toy story</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
