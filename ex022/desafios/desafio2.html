@@ -14,12 +14,19 @@
     td, tr {
         border: 1px solid black;
     }
-
+    .area {
+        background-color: blue;
+    }
 </style>
 <body>
     <table>
+        <colgroup>
+            <col class="area" span="4">
+            <col>
+            <col>
+        </colgroup>
         <tr>
-            <td colspan="4">A</td>
+            <td colspan="4" >A</td>
             <td rowspan="4">B</td>
         </tr>
         <tr>
