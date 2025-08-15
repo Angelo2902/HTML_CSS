@@ -16,7 +16,7 @@ div.quadrado {
     background-color: skyblue;
 }
 #q2 {
-    background-image: linear-gradient(to top, yellow , black, red);
+    background-image: linear-gradient(to top, blue , black, red);
 }
 #q3 {
     background-image: url(imagens/pattern003.png);
