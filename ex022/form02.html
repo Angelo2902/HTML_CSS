@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario com senha</title>
+</head>
+<body>
+    <form action="cadastro.php" method="get" autofocus="on">
+        <p><label for="inome">Nome:</label>
+            <input autocomplete="username" type="text" name="nome" id="inome" required maxlength="10" placeholder="seu nome aqui" size="9" ></p>
+        <p><label for="isen">Senha:</label> 
+            <input autocomplete="new-password" type="password" name="sen" id="isen" required minlength="4" size="4" placeholder="senha"></p>
+
+        <input type="submit" value="enviar">
+        <input type="reset" value="limpar">
+    </form>
+</body>
+</html>
