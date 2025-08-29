@@ -9,7 +9,22 @@
     <form action="cadastro.php">
         <legend>Lidando com cores</legend>
         <fieldset>
-            
+            <p>
+                <label for="cor">cor</label>
+                <input type="color" name="cor" id="icor" value="#aa00ff">
+            </p>
+
+            <p>
+                <label for="inivel">nivel de satisfação</label>
+                <input type="range" name="nivel" id="inivel" min="0" max="8" value="0">
+            </p>
+
+            <p>
+                <label for="ifoto">foto do perfil</label>
+                <input type="file" name="file" id="ifile">
+                <!--utilizando o metodo input:file, não é possivel deixar o form em 
+                method="get" somento funciona em POST-->
+            </p>
         </fieldset>
         <P>
             <input type="submit" value="enviar">
