@@ -6,21 +6,13 @@
     <title>teste de menus</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
     <link rel="stylesheet" href="estilos/style.css">
-    <script>
-        function clickMenu() {
-            if (menu.style.display == 'none') {
-                menu.style.display = 'block'
-            } else {
-                menu.style.display = 'block'
-            }
-        }
-    </script>
+    
 </head>
 <body>
     <header>
         <h1>Meu site</h1>
-        <i id="icon" class="material-symbols-outlined" onclick="clickMenu()">menu</i>
-        <menu id="menu">
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <menu id="itens">
             <ul>
                 <li><a href="#">opção 1</a></li>
                 <li><a href="#">opção 2</a></li>
@@ -40,6 +32,14 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex adipisci expedita modi ducimus non, dolorum est eius animi tenetur quis amet. Commodi at alias optio fuga, quas beatae dolor quasi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi atque sint reiciendis impedit fugiat quos, quidem nam at quibusdam nesciunt illo sequi temporibus, consequuntur dolorum cum earum dolores eveniet repudiandae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea mollitia, magni assumenda doloremque nostrum deleniti est veniam, nemo repellat porro, obcaecati sunt suscipit laborum exercitationem nihil accusamus labore! Ducimus, minima?</p>
         </article>
     </main>
-    
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'none'){
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+    </script>
 </body>
 </html>
